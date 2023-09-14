@@ -1,0 +1,14 @@
+{
+  "name": "chat",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun --hot run index.ts"
+  }
+}
